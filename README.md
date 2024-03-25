@@ -7,7 +7,7 @@ Input MFCC spectogram to UNET to denoise the audio
 4. Kinds of noise : COmplete
 5. Denoising approaches : WIP 80 % 
 6. UNET architecture: Completed
-7. Implement MFCC, UNET , and inverse MFCC
+7. Implement MFCC (DCT, spectogram), UNET, and inverse MFCC
 8. Dataset study
 9. Information loss checks
 10. Evaluation metric understanding and implementation
