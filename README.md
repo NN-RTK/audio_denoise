@@ -11,10 +11,13 @@ Input MFCC spectogram to UNET to denoise the audio
    6a. Spectogram/COmplex number input for UNET : study ongoing
    6b. Phase infprmation from audio : needed or not important for required application
 7. Alternatives:
-   7a. Alternative2: A U-Net Based System for Environmental Sound Generation and Enhancement : Study ongoing
+   7a. Alternative 2: A U-Net Based System for Environmental Sound Generation and Enhancement : Study ongoing
    7b. Alternative 1: Wave Unet: accurate phase , temporal features : Open source on music: reproduced 
 8. Implement MFCC (DCT, spectogram), UNET, and inverse MFCC: Open source and MFCC completed but need to combine
 9. Dataset study : Generate samples with added white gaussian noise : 10 done
-10. Information loss checks
-11. Evaluation metric understanding and implementation
-12. Evaluation
+10. Additions for denoising that can be made lightweight:
+   10a. Compressed sensing loss
+   10b.  Shuffle Attention mechanism https://www.mdpi.com/2076-3417/12/9/4161
+   10c. Robust Principal Component Analysis (RPCA) 
+12. Evaluation metric understanding and implementation
+13. Evaluation
