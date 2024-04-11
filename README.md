@@ -3,7 +3,9 @@ Input MFCC spectogram to UNET to denoise the audio
 # Tasks:
 1. Understand sound signal and differences between image and sound input: COmpleted 
 2. Audio processing basics: Sampling, Quantization, Fourier Transform, STFT, MFCC : Complete
-3. STFT vs MFCC : Complete:
+3. STFT vs MFCC : Complete
+   PCM -> Window -> STFT -> Power spectrum -> Mel bands -> Log -> DCT -> MFCC
+   # Proposal 1: DO we need to reduce the dimensionality of Log Mel Bands using DCT? 
    3a spectograms are NOT spatially invariant: check use with UNET
 4. Kinds of noise : COmplete
 5. Denoising approaches : WIP 80 % 
@@ -19,5 +21,5 @@ Input MFCC spectogram to UNET to denoise the audio
    10a. Compressed sensing loss
    10b.  Shuffle Attention mechanism https://www.mdpi.com/2076-3417/12/9/4161
    10c. Robust Principal Component Analysis (RPCA) 
-12. Evaluation metric understanding and implementation
-13. Evaluation
+11. Evaluation metric understanding and implementation
+12. Evaluation
