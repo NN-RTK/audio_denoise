@@ -8,7 +8,7 @@ Input MFCC spectogram to UNET to denoise the audio
 4. Kinds of noise : COmplete
 5. Denoising approaches : WIP 80 % 
 6. UNET architecture: Completed
-   6a. Spectogram/COmplex number input for UNET : study ongoing
+   6a. Spectogram/COmplex number input for UNET : study ongoing 
    6b. Phase infprmation from audio : needed or not important for required application
 7. Alternatives:
    7a. Alternative 2: A U-Net Based System for Environmental Sound Generation and Enhancement : Study ongoing
