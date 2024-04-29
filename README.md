@@ -43,6 +43,10 @@ Input MFCC spectogram to UNET to denoise the audio
 
 # Plan and proposals
 Here are some tasks planned based on the above observations:
+>> Proposal 1: input noisy MFCC and target clean wave form. Loss function to caluclate loss between waveforms and mfccs. Refer Clean Unet and unsuperwised waveencoder ( https://arxiv.org/pdf/2202.07790 and https://arxiv.org/pdf/1901.08810 ) - it uses stft and waveform loss, we try with mfcc and waveform  
+>> Proposal 2: allocate losses for different frequency bands of noise 
+
+
 1.	Decide input features: Mel spectrogram/MFCC/STFT combined with others. Literature study references:
    •	Study modifications to MFCC in literature for other audio tasks: Ongoing 
    •	Study Ref: https://link.springer.com/article/10.1007/s43926-023-00049-y
@@ -59,5 +63,4 @@ Here are some tasks planned based on the above observations:
 •	Completed: reproduced official results, 
 •	TODO: check on white noise added signals and Real Life noise audio 
 
->> Proposal 1: input noisy MFCC and target clean wave form. Loss function to caluclate loss between waveforms and mfccs. Refer Clean Unet and unsuperwised waveencoder ( https://arxiv.org/pdf/2202.07790 and https://arxiv.org/pdf/1901.08810 ) - it uses stft and waveform loss, we try with mfcc and waveform  
->> Proposal 2: allocate losses for different frequency bands of noise 
+
